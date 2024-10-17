@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copiar Frases</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Verifique se o caminho está correto -->
+</head>
+<body>
+
+    <div class="container">
+        <h1>Copiar Frases</h1>
+        <div class="button-container">
+            <button class="copyButton" data-frase="Frase 1: Esta é a primeira frase.">BOM DIA</button>
+            <button class="copyButton" data-frase="Frase 2: Esta é a segunda frase.">BOA TARDE</button>
+            <button class="copyButton" data-frase="Frase 3: Esta é a terceira frase.">BOA NOITE</button>
+        </div>
+
+        <div id="message"></div>
+
+        <button id="editTab" class="editButton">Editar Frases</button>
+        <div id="editPanel">
+            <h3>Escolha uma frase para editar:</h3>
+            <div id="editOptions">
+                <button class="editOption" data-frase="Frase 1: Esta é a primeira frase.">Editar Frase 1</button>
+                <button class="editOption" data-frase="Frase 2: Esta é a segunda frase.">Editar Frase 2</button>
+                <button class="editOption" data-frase="Frase 3: Esta é a terceira frase.">Editar Frase 3</button>
+            </div>
+            <div id="editInput" style="display:none;"> <!-- Inicialmente oculto -->
+                <label for="fraseEdit">Nova Frase:</label>
+                <input type="text" id="fraseEdit" placeholder="Digite a nova frase aqui...">
+                <button id="saveEdit" class="saveButton">Salvar Edição</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Verifique se o caminho está correto -->
+</body>
+</html>

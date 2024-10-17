@@ -1,0 +1,91 @@
+/* Estilos básicos do corpo */
+body {
+    background: url("https://i.imgur.com/dReDbJT.gif") no-repeat center fixed;
+    background-size: cover;
+    
+    font-family: gotham, arial, helvetica, sans-serif;
+  font-size: 11px;
+  margin: 0%;
+  padding: 0%;
+  margin: 0 auto;
+}
+
+/* Estilos para o contêiner */
+.container {
+    max-width: 600px; /* Largura máxima do contêiner */
+    margin: auto; /* Centraliza o contêiner */
+    text-align: center; /* Centraliza texto */
+}
+
+/* Estilos para os botões de copiar */
+.copyButton {
+    background-color: rgba(0, 123, 255, 0.3); /* Azul transparente */
+    color: white; /* Cor do texto */
+    padding: 12px 20px; /* Espaçamento interno */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Mão ao passar o mouse */
+    margin: 10px; /* Margem entre os botões */
+    transition: background-color 0.3s, transform 0.2s; /* Transição suave */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+.copyButton:hover {
+    background-color: rgba(0, 123, 255, 0.5); /* Azul mais escuro ao passar o mouse */
+    transform: translateY(-2px); /* Eleva o botão ao passar o mouse */
+}
+
+/* Estilos para o botão de edição */
+.editButton {
+    background-color: rgba(23, 162, 184, 0.3); /* Azul claro transparente */
+    color: white; /* Cor do texto */
+    padding: 12px 20px; /* Espaçamento interno */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Mão ao passar o mouse */
+    margin: 10px 0; /* Margem entre o botão de edição */
+    font-size: 16px; /* Tamanho da fonte */
+    transition: background-color 0.3s; /* Transição suave */
+}
+
+.editButton:hover {
+    background-color: rgba(23, 162, 184, 0.5); /* Azul claro mais escuro ao passar o mouse */
+}
+
+/* Estilos para as opções de edição */
+.editOption {
+    background-color: rgba(255, 193, 7, 0.3); /* Amarelo transparente */
+    color: white; /* Cor do texto */
+    padding: 8px 15px; /* Espaçamento interno */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Mão ao passar o mouse */
+    margin: 5px; /* Margem entre as opções */
+    transition: background-color 0.3s; /* Transição suave */
+}
+
+.editOption:hover {
+    background-color: rgba(255, 193, 7, 0.5); /* Amarelo mais escuro ao passar o mouse */
+}
+
+/* Estilo do botão de salvar */
+.saveButton {
+    background-color: rgba(40, 167, 69, 0.3); /* Verde transparente */
+    color: white; /* Cor do texto */
+    padding: 10px 15px; /* Espaçamento interno */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Mão ao passar o mouse */
+    margin-top: 10px; /* Margem superior do botão */
+    transition: background-color 0.3s; /* Transição suave */
+}
+
+.saveButton:hover {
+    background-color: rgba(40, 167, 69, 0.5); /* Verde mais escuro ao passar o mouse */
+}
+
+/* Estilos para o painel de edição */
+#editPanel {
+    display: none; /* Oculto por padrão */
+    margin-top: 20px; /* Margem superior */
+}
